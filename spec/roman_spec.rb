@@ -1,4 +1,4 @@
-require './roman'
+require_relative '../roman'
 
 describe Roman do
   it 'should convert 1 to I' do
