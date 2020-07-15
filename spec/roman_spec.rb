@@ -16,6 +16,15 @@ RSpec.describe Roman do
       10 | 'X'
       11 | 'XI'
       38 | 'XXXVIII'
+      40 | 'XL'
+      50 | 'L'
+      90 | 'XC'
+      100 | 'C'
+      500 | 'D'
+      400 | 'CD'
+      1000 | 'M'
+      900 | 'CM'
+      1968 | 'MCMLXVIII'
     end
 
     with_them do
