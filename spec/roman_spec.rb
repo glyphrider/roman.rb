@@ -62,5 +62,10 @@ RSpec.describe Roman do
       end
     end
     
+    with_them do
+      it "should convert #{params[:roman]} to #{params[:arabic]}" do
+        expect(subject.convert_from(roman)).to eq(arabic)
+      end
+    end
   end
 end
