@@ -4,5 +4,10 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    target-branch: "master"
 
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "daily"
     target-branch: "bad_deps"
