@@ -11,3 +11,4 @@ updates:
     schedule:
       interval: "daily"
     target-branch: "bad_deps"
+    open-pull-requests-limit: 0
