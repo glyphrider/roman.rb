@@ -6,4 +6,4 @@ gem 'rspec-parameterized', ">= 0.5.1"
 gem 'rspec_junit_formatter', ">= 0.5.1"
 
 gem 'nokogiri', "~> 1.12.0"
-gem 'rdoc', "< 6.3.1"
+gem 'rdoc', "< 6.4.1"
