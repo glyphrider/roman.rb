@@ -42,9 +42,9 @@ PLATFORMS
 
 DEPENDENCIES
   rake
-  rspec (>= 3.11.0)
-  rspec-parameterized (>= 0.5.1)
-  rspec_junit_formatter (>= 0.5.1)
+  rspec
+  rspec-parameterized
+  rspec_junit_formatter
 
 BUNDLED WITH
    2.3.14

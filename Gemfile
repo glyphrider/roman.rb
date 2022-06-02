@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'rspec', ">= 3.11.0"
-gem 'rspec-parameterized', ">= 0.5.1"
-gem 'rspec_junit_formatter', ">= 0.5.1"
+gem 'rspec'
+gem 'rspec-parameterized'
+gem 'rspec_junit_formatter'
